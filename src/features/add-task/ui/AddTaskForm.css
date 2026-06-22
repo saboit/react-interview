@@ -1,0 +1,8 @@
+.add-task {
+  display: flex;
+  gap: 8px;
+}
+
+.add-task .tb-text-input {
+  flex: 1;
+}

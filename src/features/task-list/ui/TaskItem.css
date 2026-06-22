@@ -1,0 +1,20 @@
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  border: 1px solid #eceef3;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.task-item__label {
+  flex: 1;
+  font-size: 14px;
+  cursor: text;
+}
+
+.task-item__label--done {
+  color: #9aa1ad;
+  text-decoration: line-through;
+}

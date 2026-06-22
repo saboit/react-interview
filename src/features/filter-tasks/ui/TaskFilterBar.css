@@ -1,0 +1,24 @@
+.task-filter-bar {
+  display: inline-flex;
+  gap: 4px;
+  padding: 4px;
+  background-color: #f1f3f8;
+  border-radius: 10px;
+}
+
+.task-filter-bar__option {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: transparent;
+  font-size: 13px;
+  font-weight: 600;
+  color: #6b7280;
+  cursor: pointer;
+}
+
+.task-filter-bar__option--active {
+  background-color: #ffffff;
+  color: #2b3140;
+  box-shadow: 0 1px 2px rgba(20, 24, 33, 0.12);
+}

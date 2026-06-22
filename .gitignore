@@ -1,0 +1,10 @@
+node_modules
+dist
+dist-ssr
+coverage
+*.local
+.DS_Store
+
+# The interviewer-only answer key lives in the wiki, NOT in this repo, so it can
+# never be shipped to a candidate via clone, zip, or copy:
+#   mama-lauta-wiki/react-interview-process.md → "Appendix B"

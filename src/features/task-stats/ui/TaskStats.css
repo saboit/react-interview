@@ -1,0 +1,9 @@
+.task-stats {
+  margin: 0;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.task-stats__count {
+  color: #2b3140;
+}
